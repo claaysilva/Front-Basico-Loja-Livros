@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livros Infantis - Livraria Infantil</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-md custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="imglogo"
+            src="imagens/logo 2.png"
+            alt="some text"
+            width="50"
+            height="32"
+        /></a>
+        <button
+          class="navbar-toggler navbar-toggler-white"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="livros.html">Livros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/claaysilva/"
+                title="instagram"
+                target="_blank"
+                class="d-md-none"
+                ><svg class="icon-white" viewBox="0 0 448 512" height="25">
+                  <title></title>
+                  <path
+                    fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  ></path></svg
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/claysilva"
+                title="linkedin"
+                target="_blank"
+                class="d-md-none"
+              >
+                <svg class="icon-white" viewBox="0 0 448 512" height="25">
+                  <title></title>
+                  <path
+                    fill="currentColor"
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                  ></path></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="container">
+      <h1 class="text-center">Livros Infantis</h1>
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 1.png"
+              alt="Livro 1"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Diário de Pilar na Amazônia</h5>
+              <p class="card-text descricao-pequena">
+                Pilar achou um recorte de jornal com uma notícia pela metade e
+                tem certeza de que é uma pista sobre o paradeiro de seu pai. A
+                investiga...
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal1"
+              >
+                Ver Mais
+              </button>
+
+              <a class="btn btn-primary">Comprar</a>
+
+              <div class="modal" id="myModal1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      Pilar achou um recorte de jornal com uma notícia pela
+                      metade e tem certeza de que é uma pista sobre o paradeiro
+                      de seu pai. A investigação exige malas prontas e uma
+                      viagem. Em um giro na rede mágica, as crianças e o gato
+                      Samba vão parar em pleno rio Amazonas. Juntos, vão
+                      enfrentar os feitiços da Iara, descobrir os segredos da
+                      Floresta Encantada, habitada pela temível Cobra-Grande e
+                      ainda se dar conta de que suas árvores estão sendo
+                      destruídas e de que é preciso fazer alguma coisa para
+                      preservá-las. Pilar aprende sobre comer pupunha cozida e
+                      peixe com açaí, dormir em rede, andar de gaiola e canoa e
+                      morar em uma palafita. E, no meio de tanta aventura, ainda
+                      vai experimentar o primeiro beijo e sentir a emoção do
+                      primeiro amor.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 2.png"
+              alt="Livro 2"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Devocional - 3 Palavrinhas</h5>
+              <p class="card-text descricao-pequena">
+                A Turma do 3 Palavrinhas (referência a 'Deus é amor'), tornou-se
+                um dos maiores fenômenos infantis no Youtube, com mais de 2
+                bilhões...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal2"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal2">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      A Turma do 3 Palavrinhas (referência a 'Deus é amor'),
+                      tornou-se um dos maiores fenômenos infantis no Youtube,
+                      com mais de 2 bilhões de visualizações nos seus diversos
+                      vídeos (e contando...). O Devocional 3 Palavrinhas é o
+                      inédito produto editorial, feito com exclusividade pela
+                      Lion Editora, imperdível para você ensinar a Bíblia e se
+                      emocionar com os seus filhos de 0 a 7 anos! Agora será
+                      interagir com as 10 músicas do Volume 5 do Canal 3
+                      Palavrinhas e conhecer melhor os personagens Davi, Sarah e
+                      Miguel, em aventuras no formato de história em quadrinhos!
+                      m! Cada história possui vários recursos, entre atividades,
+                      reflexões, curiosidades e um QR Code para interação com as
+                      músicas.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 3.png"
+              alt="Livro 3"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bíblia Ilustrada - 3 Palavrinhas</h5>
+              <p class="card-text descricao-pequena">
+                A Bíblia Ilustrada 3 Palavrinhas é uma adaptação fiel ao texto
+                sagrado, interagindo com os personagens do 3 Palavrinhas,
+                para...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal3"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      A Bíblia Ilustrada 3 Palavrinhas é uma adaptação fiel ao
+                      texto sagrado, interagindo com os personagens do 3
+                      Palavrinhas, para ensinar a Bíblia e se emocionar com os
+                      pequenos de 0 a 8 anos! São mais de 200 histórias do
+                      Antigo e Novo Testamento, que contarão de forma inovadora
+                      e criativa todo o plano de salvação e amor de Deus para a
+                      humanidade! O universo do “3 Palavrinhas” (referentes à
+                      frase "Deus é amor") já se tornou um dos maiores fenômenos
+                      infantis no Youtube, com mais de 2 bilhões de
+                      visualizações nos seus diversos vídeos e mais de 2 milhões
+                      de inscritos no canal do projeto. Pode-se afirmar que é um
+                      projeto cultural cristão que ultrapassou as fronteiras do
+                      segmento religioso, influenciando positivamente a cultura
+                      de nosso tempo. Assim, a parceria entre o 3 Palavrinhas e
+                      a Editora 100% Cristão, a única especializada em cultura
+                      pop cristã, resultou na primeira aventura editorial deste
+                      universo: o “Devocional 3 Palavrinhas”. Após o êxito dessa
+                      publicação, buscamos realizar algo ainda mais
+                      diferenciado, que pudesse trazer a Bíblia de forma
+                      Ilustrada para as crianças, na linguagem delas,
+                      interagindo com Davi, Sarah e Miguel. Assim, surgiu a
+                      “Bíblia Ilustrada 3 Palavrinhas”, com mais de 400 páginas
+                      e 200 das mais importantes histórias do Antigo e do Novo
+                      Testamento, contadas de forma inovadora, cativante e
+                      pedagógica. Totalmente colorida e em Capa Dura especial, a
+                      obra traz o mesmo objetivo das músicas do 3 Palavrinhas,
+                      de exaltar e declarar o amor de Deus, ensinando,
+                      divertindo e unindo gerações agora também “em papel e em
+                      cores”. “E nós conhecemos, e cremos no amor que Deus nos
+                      tem. Deus é amor; e quem está em amor está em Deus, e Deus
+                      nele.” (1 João 4: 16).
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 4.png"
+              alt="Livro 4"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">O Pequeno Príncipe</h5>
+              <p class="card-text descricao-pequena">
+                O grande clássico de todos os tempos! As sábias, encantadoras e
+                inesquecíveis histórias contadas pelo pequeno príncipe falam de
+                seu próprio planeta, com...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal4"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal4">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      O grande clássico de todos os tempos! As sábias,
+                      encantadoras e inesquecíveis histórias contadas pelo
+                      pequeno príncipe falam de seu próprio planeta, com seus
+                      três vulcões e uma flor presunçosa. Uma história
+                      maravilhosa e profunda, para todas as idades, e ilustrada
+                      pelo próprio autor. Edição brochura, no formato
+                      tradicional da obra. Nova tradução, pela professora de
+                      Literatura Francesa Isolina Bresolin Vianna. Ilustrado com
+                      as aquarelas do próprio Saint-Exupéry. O pequeno príncipe
+                      é um dos maiores clássicos da literatura francesa. Sempre
+                      presente nas listas de best-sellers, já foi publicado em
+                      mais de 250 idiomas, e tornou-se o livro mais lido e mais
+                      traduzido na literatura internacional. Esta edição, que
+                      conta ainda com uma inovação editorial: é a única a trazer
+                      as ilustrações posicionadas fielmente à sequência da
+                      própria narrativa.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 5.png"
+              alt="Livro 5"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Um Tronco no Meio do Caminho</h5>
+              <p class="card-text descricao-pequena">
+                O grande clássico de todos os tempos! As sábias, encantadoras e
+                inesquecíveis histórias contadas pelo pequeno príncipe falam de
+                seu...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal5"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal5">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      O grande clássico de todos os tempos! As sábias,
+                      encantadoras e inesquecíveis histórias contadas pelo
+                      pequeno príncipe falam de seu próprio planeta, com seus
+                      três vulcões e uma flor presunçosa. Uma história
+                      maravilhosa e profunda, para todas as idades, e ilustrada
+                      pelo próprio autor. Edição brochura, no formato
+                      tradicional da obra. Nova tradução, pela professora de
+                      Literatura Francesa Isolina Bresolin Vianna. Ilustrado com
+                      as aquarelas do próprio Saint-Exupéry. O pequeno príncipe
+                      é um dos maiores clássicos da literatura francesa. Sempre
+                      presente nas listas de best-sellers, já foi publicado em
+                      mais de 250 idiomas, e tornou-se o livro mais lido e mais
+                      traduzido na literatura internacional. Esta edição, que
+                      conta ainda com uma inovação editorial: é a única a trazer
+                      as ilustrações posicionadas fielmente à sequência da
+                      própria narrativa.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 6.png"
+              alt="Livro 6"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Seu Vô e a Baleia</h5>
+              <p class="card-text descricao-pequena">
+                Seu Vô e a Baleia conta a história de como o garoto Mundinho,
+                filho e neto de pescadores, lida com a morte de Seu Vô. O vazio
+                deixado por ele é representado...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal6"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal6">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      Seu Vô e a Baleia conta a história de como o garoto
+                      Mundinho, filho e neto de pescadores, lida com a morte de
+                      Seu Vô. O vazio deixado por ele é representado de forma
+                      simbólica, metafórica e poética. Com o tempo, Mundinho se
+                      lembra como sorrir, brincar, e vai processando a perda até
+                      a dor virar saudade.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 7.png"
+              alt="Livro 7"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">O Livro Preferido de Um Garoto Sabido</h5>
+              <p class="card-text descricao-pequena">
+                Uma história sobre um garoto que está lendo um livro sobre um
+                pirata, que está lendo um livro sobre a Cachinhos...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal7"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal7">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      Uma história sobre um garoto que está lendo um livro sobre
+                      um pirata, que está lendo um livro sobre a Cachinhos
+                      Dourados, que está lendo um livro sobre um dragão e um
+                      cavaleiro... Em versos rimados, essa história circular,
+                      sem começo nem fim, reúne personagens que já são velhos
+                      conhecidos nossos, além de mesclar variados gêneros
+                      textuais — como anúncios, reportagens de jornal e verbetes
+                      enciclopédicos —, para celebrar o fantástico mundo dos
+                      livros e da imaginação. Da dupla de autores responsável
+                      pelos sucessos O gigante mais elegante da cidade, Apertada
+                      e sem espaço, O Grúfalo e tantos outros.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <div class="card">
+            <img
+              src="imagens/capa livro 8.png"
+              alt="Livro 8"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eu Medito e Me Conheço</h5>
+              <p class="card-text descricao-pequena">
+                Esse guia de meditação apresenta Gina, uma menina curiosa, que
+                está animada para suas férias no Japão com seus pais. Ao chegar
+                lá, ela...
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal8"
+              >
+                Ver Mais
+              </button>
+              <a class="btn btn-primary">Comprar</a>
+              <div class="modal" id="myModal8">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h3>Descrição completa</h3>
+                      Esse guia de meditação apresenta Gina, uma menina curiosa,
+                      que está animada para suas férias no Japão com seus pais.
+                      Ao chegar lá, ela conhece o Pequeno Sábio, um grande
+                      mestre de meditação, cheio de ideias interessantes.
+                      Juntos, eles embarcam em uma jornada inesquecível, em que
+                      Gina descobre tudo o que a prática da meditação pode
+                      trazer para sua vida ― e como dar os primeiros passos para
+                      começar a meditar. A meditação pode… * Nos deixar mais
+                      atentos e presentes nas atividades cotidianas; * Nos
+                      ajudar a lidar melhor com as próprias emoções; *
+                      Contribuir para que não sejamos dominados por sentimentos
+                      e sensações desagradáveis. Este livro é indicado para
+                      crianças a partir de 6 anos.
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-bs-dismiss="modal"
+                        >
+                          Fechar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="text-white text-center py-3 custom-footer">
+      <div class="container position-relative">
+        <span class="message-corner message-left"
+          ><a
+            href="https://www.instagram.com/claaysilva/"
+            title="instagram"
+            class="d-none d-md-inline-block"
+            ><svg viewBox="0 0 448 512" height="25">
+              <title></title>
+              <path
+                fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              ></path></svg
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/claysilva"
+            title="linkedin"
+            class="d-none d-md-inline-block"
+          >
+            <svg viewBox="0 0 448 512" height="25">
+              <title></title>
+              <path
+                fill="currentColor"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              ></path></svg
+          ></a>
+        </span>
+        <span class="message-corner message-right d-none d-lg-inline-block"
+          >"Ler é abrir as asas da imaginação."</span
+        >
+        <span class="message-middle"
+          >Copyright &copy; 2023 - Livraria Infantil</span
+        >
+      </div>
+    </footer>
+
+    <!-- Scripts do Bootstrap e jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
